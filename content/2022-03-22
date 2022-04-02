@@ -21,4 +21,6 @@ redis确实用的太少太简单了，数据库一般来讲要考虑并发的问
 
 兵不在多，而不精。重复未必不好，重复才更可能找到规律。
 
-(git, wsl, mubu, docker, sre, k8s, other infras ....)
+(git, wsl, mubu, docker, sre, k8s, other infras (rabbitMQ, redis, postgresql, mysql)....)
+
+数据存储的几个关键指标：搜索引擎，缓存，消息队列，批处理与流处理，持久化
