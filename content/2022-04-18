@@ -1,0 +1,24 @@
+天气 阴
+
+系统设计怎么开始呢？
+    本质上就是平时的思考过程，
+    确定约束条件边界，使用什么基础设施，为什么使用这个，解决什么问题；
+    会有什么问题，瓶颈在哪里，平衡取舍；
+    如何进一步的扩展
+
+系统设计比较详细的大纲内容，不过本质上还是要清楚细节。(from geeksforgeeks)
+    每一个话题都可以拿出来扩展，关键的是知不知道错误
+    1. sd interveiws, sd process - uber, analysis and data modelling
+    2. design of large scale system, trade-offs - twitter, analysis and data modelling
+    3. load balancers, ssl termination and passthrough, reverse proxy and problem design
+    4. web sockets & fb messenger design, monoliths & microservices
+    5. o aoth2, jwt tokens and problem design
+    6. cdn, caching and problem design
+    7. api getways, dns, https, zookeeper and problem design
+    8. data distribution in large-scale system, hashing and problem design
+    9. handling massive data, indexing, data partitioning, sharding, replication, mirroring and problem design
+    10. push & pull mechanism, tips & tricks and event-driven design of a problem
+    11. ddos, encryption mechanism
+    12. api designs and databases and sd
+
+    主要内容还是数据处理、存储、通讯，其次是负载均衡， cdn, dns, 安全， api getways, 认证
